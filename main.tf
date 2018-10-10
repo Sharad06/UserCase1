@@ -21,9 +21,9 @@ module "terraform-vra-win2012R2" {
 	dr_code = "DR-101" 
 	msid_search = "sgupt183" 
 	msid = "sgupt183" 
-	user_group = "SED_OGS_OSPLM_ARK" 
+	user_group = "SystemEngineering" 
 	disk = "50" 
 	resilience_zone = "None" 
 	reservation_policy_id = "95c5f016-8c6d-4015-8390-4eef2da71b61" 
-	count = 1 
-} 
+	count = 1
+}
